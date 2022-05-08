@@ -1,0 +1,182 @@
+/* Stylesheet */
+
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family:'Roboto',Arial, Helvetica, sans-serif;
+  color: white;
+  }
+
+  
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  background-color: black;
+  align-items: center;
+}
+
+.logo img{
+  height: auto;
+  width: auto;
+  margin-right: auto;
+}
+
+.navbar-links {
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+  gap: 50px;
+}
+
+
+
+/* Hero section */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 100px;
+  gap: 100px;
+  flex:1;}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Roboto', arial;}
+
+.hero-image img {
+  height: max-content;
+  width: max-content;
+}
+
+.hero button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Content */
+
+.content {
+  align-items: center;
+}
+
+.content-info{
+  display:flex;
+  gap: 52px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-info img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border: 20px solid grey;
+  border-radius: 20px;
+  margin: 5px 20px 0px 20px;
+  background-color: white;}
+
+h2 {
+  font-size: 80px;
+}
+.content-info p {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Roboto', arial;}
+
+/* Quote */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  font-size: 56px;
+  background-color: #E5E7EB;
+  padding: 200px;
+  gap: 20px;
+  font-family: 'roboto', arial;
+  color: black;
+}
+
+.quote i {
+  text-align: right;
+}
+
+/* Sign up */
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', arial;
+  background-color: white;
+  color: black;
+  margin: 50px 200px;
+  border: solid 10px #E5E7EB;
+  border-radius: 20px;
+  padding: 10px 80px;
+  gap: 100px;
+  font-size: 20px;
+  
+}
+
+.item sign-up-text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-up button {
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  font-weight: bold;
+  
+
+}
+
+
+
+
+/*Footer*/
+
+.footer {
+  color: white;
+  font-family: 'Roboto', arial;
+}
