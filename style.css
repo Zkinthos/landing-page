@@ -7,6 +7,8 @@ body {
   text-align: center;
   font-family:'Roboto',Arial, Helvetica, sans-serif;
   color: white;
+  flex:1
+
 }
 .container {
   display: flex;
@@ -15,7 +17,7 @@ body {
 
 /* Navbar */
 
-.navbar{
+.navbar {
   display: flex;
   background-color: black;
   align-items: center;
@@ -59,8 +61,8 @@ body {
   font-family: 'Roboto', arial;}
 
 .hero-image img {
-  height: auto;
-  width: auto;
+  height: max-content;
+  width: max-content;
 }
 
 .hero button {
